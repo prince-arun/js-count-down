@@ -1,0 +1,87 @@
+body {
+  background: hsla(208, 67%, 81%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(208, 67%, 81%, 1) 0%,
+    hsla(37, 65%, 85%, 1) 50%,
+    hsla(301, 65%, 83%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(208, 67%, 81%, 1) 0%,
+    hsla(37, 65%, 85%, 1) 50%,
+    hsla(301, 65%, 83%, 1) 100%
+  );
+
+  /* background: -webkit-linear-gradient(
+      90deg,
+      hsla(208, 67%, 81%, 1) 0%,
+      hsla(37, 65%, 85%, 1) 50%,
+      hsla(301, 65%, 83%, 1) 100%
+    ); */
+}
+.container {
+  text-align: center;
+  margin-top: 200px;
+}
+h1 {
+  font-family: monospace, sans-serif;
+}
+#countdown {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#countdown div {
+  margin: 0 10px;
+}
+
+#countdown span {
+  display: block;
+  font-size: 48px;
+}
+label {
+  font-size: 25px;
+  font-family: monospace, sans-serif;
+}
+
+.label {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: monospace, sans-serif;
+}
+.btn {
+  font-size: 15px;
+  font-family: monospace, sans-serif;
+  padding: 10px 27px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+#startButton {
+  background-color: rgb(71, 207, 241);
+  color: white;
+  border: rgb(255, 255, 255);
+}
+#startButton:hover {
+  background-color: rgb(14, 107, 228);
+  color: rgb(22, 21, 21);
+  border: rgb(255, 255, 255);
+}
+#resetButton {
+  background-color: rgb(241, 84, 228);
+  color: white;
+  border: rgb(255, 255, 255);
+}
+#resetButton:hover {
+  background-color: rgb(252, 13, 13);
+  color: rgb(17, 17, 17);
+  border: rgb(255, 255, 255);
+}
+input {
+  border-radius: 5px;
+  height: 22px;
+  border-color: bisque;
+}
